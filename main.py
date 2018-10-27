@@ -1,5 +1,5 @@
-print('hello world')
-
-test = 5
-if test = 25: 
-    print('hello')
+test = 5 * 5
+if test == 25:
+    print('true')
+else:
+    print('false')
