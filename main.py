@@ -1,4 +1,5 @@
 print('hello world')
 
-if 5*5=25
-print('hello')
+test = 5
+if test = 25: 
+    print('hello')
