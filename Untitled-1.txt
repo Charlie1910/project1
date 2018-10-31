@@ -1,0 +1,9 @@
+this is my first game commit
+
+age = 12
+    if age = 12
+    print('hello')
+
+age = 12 
+    if age = 21
+    print('hello')

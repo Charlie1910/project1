@@ -1,3 +1,3 @@
 # project1
 new py repository
-this is my first comit
+this is my first comit coading practice
