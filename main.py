@@ -39,4 +39,5 @@ while 1:
     tk.update_idletasks()
     tk.update()
     time.sleep(0.01)
-#not finished yet making the ball move next
+#to be continued
+#making the ball move
