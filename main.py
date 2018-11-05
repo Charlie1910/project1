@@ -40,4 +40,4 @@ while 1:
     tk.update()
     time.sleep(0.01)
 #to be continued
-#making the ball move
+#making the ball move/adding some action
