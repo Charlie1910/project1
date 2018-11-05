@@ -36,8 +36,31 @@ class Ball:
 ball = ball(canvis, 'red')
 
 while 1:
+    ball.draw()
     tk.update_idletasks()
     tk.update()
     time.sleep(0.01)
-#to be continued
 #making the ball move/adding some action
+def draw(self):
+    self.canvis.move(self.id, 0, -1)
+#the game code should look now like this
+from tinker import *
+import random
+import time
+
+class Ball:
+    def_init_(self, canvis, color):
+        self.canvis = canvis
+        self.id = canvis.create_oval(10, 10, 25, 25, fill=color)
+         self.canvis.move(self.id, 245, 100)
+    
+   def draw(self):
+       self.canvis.move(self.id, 0, 1)
+            
+tk = Tk()
+tk.title("game")
+tk.resizable(0, 0)
+tk.wm_attributes("-tampost", 1)
+canvis = Canvis(tk, with=500, hight=400, bd=0, highlightthickness=0)
+#to be continued
+#next making the ball bounce
