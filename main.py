@@ -36,7 +36,6 @@ class Ball:
 ball = ball(canvis, 'red')
 
 while 1:
-    ball.draw()
     tk.update_idletasks()
     tk.update()
     time.sleep(0.01)
@@ -63,4 +62,4 @@ tk.resizable(0, 0)
 tk.wm_attributes("-tampost", 1)
 canvis = Canvis(tk, with=500, hight=400, bd=0, highlightthickness=0)
 #to be continued
-#next making the ball bounce
+#making the ball bounce
